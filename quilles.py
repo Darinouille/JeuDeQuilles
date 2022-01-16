@@ -42,7 +42,7 @@ for colonne2 in range (0,2):
 
 
 # ========== 『 Moteur du jeu 』 ========== #
-nInit = 15#(randint(3, 15))
+nInit = randint(3, 15)
 quille = list([[0,nInit-1]])
 nombreQuille(quille, nInit, palette)
 tour = 1
